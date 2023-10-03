@@ -10,7 +10,7 @@ fetchAlbum(query, number, offset) async {
       .replace(queryParameters: {
     'query': '$query',
     'metaInformation': 'true',
-    'apiKey': '14e942dae4804aaca7bc7f007d5aa652',
+    'apiKey': '<apiKey>',
     'number': '$number',
     'offset': '$offset'
   });
@@ -53,7 +53,7 @@ fetchAlbum(query, number, offset) async {
 //   final uri2 = uri1.replace(queryParameters: {
 //     'query': '$query',
 //     'metaInformation': 'true',
-//     'apiKey': '14e942dae4804aaca7bc7f007d5aa652',
+//     'apiKey': '<apiKey>',
 //     'number': number,
 //     'offset': offset
 //   });
